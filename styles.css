@@ -173,7 +173,7 @@ h1 {
     text-decoration: none;
 }
 
-.sidebar .cookies a:hover {
+.sidebar .cookies a:hover { /*não funcional*/
     text-decoration: underline;
 }
 
@@ -187,4 +187,50 @@ h1 {
     margin: 8px;
     padding: 8px;
 
+}
+
+footer {
+    background-color: #ffffff;
+    color: #121212;
+    text-align: right;
+    padding: 16px 20px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    bottom: 0;
+}
+
+.footer__content {
+    max-width: 100%;
+    margin: 0;
+}
+
+.subscribe { /*cor gradiente*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.subscribe__content {
+
+}
+
+
+.subscribe__button {
+    display: flex;
+    flex-direction: column;
 }

@@ -63,14 +63,172 @@
                     </div> 
                 </section>
         
-        <div class="cookie"> 
+        <div class="cookie"> <!--cookie deve estar fora da box-->
            <a href="">Cookies</a>
         </div>
 
-        <div class="languages">
+        <div class="languages"> <!--languages deve estar fora da box-->
             <button class="languages__button">
                 <span class="fa fa-globe"></span>
                 <span>Português do Brasil</span>
-        </div>      
+        </div>
+      
+        
+
+<main>
+    <div class="main-container">
+        <nav class="header__navigation">
+            <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/arrow-left-solid.svg" alt="" />
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/arrow-right-solid-svg" alt="" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__search">
+                <img src="./src/assets/icons/search.png" alt="" />
+                <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                  placeholder="O que você quer ouvir?" value="" />
+              </div>
+
+                <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+            </div>
+        </nav>
+
+<!-- PLAYLIST -->
+<div class="playlist-container">
+    <div id="result-playlist">
+        <div class="playlist">
+            <!-- colocar o bom dia | boa tarde | boa noite -->
+            <h1 id="greeting"></h1>
+            <h2 class="session">Navegar por todas as seções</h2>
+    </div>
+
+    <!-- list item1 -->
+    <div class="offer__scroll-container">
+        <div class="offer__list">
+            <section class="offer__list-item">
+                <!-- card1 -->
+                <a href="" class="cards">
+                    <div class="cards card1">
+                        <img src="./assets/playlists/1.png" alt="" />
+                        <span>Boas festas</span>
+                    </div>
+                </a>
+
+                <!-- card2 -->
+                <a href="" class="cards">
+                    <div class="cards card2">
+                        <img src="./assets/playlists/2.png" alt="" />
+                        <span>Feitos para você</span>
+                    </div>
+                </a>
+                <!-- card3 -->
+                <a href="" class="cards">
+                    <div class="cards card3">
+                        <img src="./assets/playlists/3.png" alt="" />
+                        <span>xxx</span>
+                    </div>
+                </a>
+
+                <!-- card4 -->
+                <a href="" class="cards">
+                    <div class="cards card4">
+                        <img src="./assets/playlists/4.png" alt="" />
+                        <span>xxx</span>
+                    </div>
+                </a>
+
+                <!-- card5 -->
+                <a href="" class="cards">
+                    <div class="cards card5">
+                        <img src="./assets/playlists/5.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+
+                <!-- card6 -->
+                <a href="" class="cards">
+                    <div class="cards card6">
+                        <img src="./assets/playlists/6.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+
+                <!-- card7 -->
+                <a href="" class="cards">
+                    <div class="cards card7">
+                        <img src="./assets/playlists/7.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+
+                <!-- card8 -->
+                <a href="" class="cards">
+                    <div class="cards card8">
+                        <img src="./assets/playlists/8.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+
+                <!-- card9 -->
+                <a href="" class="cards">
+                    <div class="cards card9">
+                        <img src="./assets/playlists/9.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+
+                <!-- card10 -->
+                <a href="" class="cards">
+                    <div class="cards card10">
+                        <img src="./assets/playlists/10.png" alt="" />
+                        <span>xxxx</span>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<div id="result-artist" class="hidden">
+    <div class="grid-container">
+        <div class="artist-card" id="">
+            <div class="card-img">
+                <img id="artist-img" class="artist-img" />
+                <div class="play">
+                    <span class="fa fa-solid fa-play"></span>
+                </div>
+            </div>
+            <div class="card-text">
+                <a title="xxxxxxx" class="vst" href=""></a>
+                    <span class="artist-name" id="artist-name"></span>
+                    <span class="artist-categorie">Artista</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+   
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Teste o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para ouvir músicas ilimitadas e podcasts com apenas alguns anúncios.
+            </p>
+        </div>
+    </footer>
+
+    <script src="" type="text/javascript"></script>
+    <script src="" type="text/javascript"></script>
+            
     </body>
 </html>
