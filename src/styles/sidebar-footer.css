@@ -1,8 +1,6 @@
 body {
     background-color: black;
-}
-h1 {
-    color:green;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -46,7 +44,6 @@ h1 {
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
-    font-family: "DM Sans", sans-serif;
     cursor: pointer;
 }
 
@@ -66,7 +63,6 @@ h1 {
     box-sizing: border-box;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     display: flex;
     justify-content: space-between;
     min-block-size: 40px;
@@ -83,7 +79,6 @@ h1 {
     border: 0;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     position: relative;
     cursor: pointer;
     text-align: center;
@@ -153,7 +148,6 @@ h1 {
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -189,30 +183,54 @@ h1 {
 
 }
 
-.footer__content {
-    max-width: 100%;
-    margin: 0;
-}
-
-.subscribe { /*cor gradiente*/
+.disclaimer-premium { /*cor gradiente*/
+    position: fixed;
     display: flex;
     align-items: flex-start;
     justify-content: right;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background: linear-gradient(to right, #ae2896, #509bf5);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0;
-    padding: 16px 20px;
+    padding: 15px 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.subscribe__content {
+.disclaimer-premium .text {
+    flex-shrink: 0;
 
 }
 
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 
-.subscribe__button {
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
     display: flex;
-    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+#artistlist {
+    display: none;
 }
