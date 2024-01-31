@@ -2,10 +2,13 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Spotify Imersão</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./src/styles/reset.css" />
+        <link rel="stylesheet" href="./src/styles/vars.css" />
+        <link rel="stylesheet" href="./src/styles/main-content.css" />
+        <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
+        <link rel="stylesheet" href="./src/styles/media-queries.css" />
         <link 
             rel="stylesheet" 
             href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
@@ -25,24 +28,24 @@
             <nav class="sidebar__navigation">
                 <div class="logo">
                     <a href="">
-                        <img src="./assets/Spotify_Logo_RGB_White.png" alt="logo do Spotify">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="logo do Spotify">
                     </a>"
                 </div>
-                     <ul>
-                         <li>
-                            <a href="">
-                                <span class="fa fa-home"></span>
-                                <span>Início</span>
-                            </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="fa fa-search"></span>
-                                    <span>Buscar</span>
-                                </a>    
-                        </li>
-                    </ul>
-             </nav>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                     <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>    
+                    </li>
+                </ul>
+            </nav>
             
             <div class="library">
                 <div class="library__content">
@@ -71,21 +74,22 @@
             <button class="languages__button">
                 <span class="fa fa-globe"></span>
                 <span>Português do Brasil</span>
+            </button>
         </div>
-      
-        
+    </div>
+</div> 
 
 <main>
     <div class="main-container">
+        <!-- inverter as classes -->
         <nav class="header__navigation">
             <div class="navigation">
                     <button class="arrow-left">
-                        <img src="./src/assets/arrow-left-solid.svg" alt="" />
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda" />
                     </button>
                     <button class="arrow-right">
-                        <img src="./src/assets/arrow-right-solid-svg" alt="" />
+                        <img src="./src/assets/icons/small-right.png" alt="seta direita" />
                     </button>
-                </div>
             </div>
 
             <div class="header__search">
@@ -116,7 +120,7 @@
                 <!-- card1 -->
                 <a href="" class="cards">
                     <div class="cards card1">
-                        <img src="./assets/playlists/1.png" alt="" />
+                        <img src="./src/assets/playlists/1.png" alt="" />
                         <span>Boas festas</span>
                     </div>
                 </a>
@@ -124,71 +128,71 @@
                 <!-- card2 -->
                 <a href="" class="cards">
                     <div class="cards card2">
-                        <img src="./assets/playlists/2.png" alt="" />
+                        <img src="./src/assets/playlists/2.png" alt="" />
                         <span>Feitos para você</span>
                     </div>
                 </a>
                 <!-- card3 -->
                 <a href="" class="cards">
                     <div class="cards card3">
-                        <img src="./assets/playlists/3.png" alt="" />
-                        <span>xxx</span>
+                        <img src="./src/assets/playlists/3.png" alt="" />
+                        <span>Tocados recentemente</span>
                     </div>
                 </a>
 
                 <!-- card4 -->
                 <a href="" class="cards">
                     <div class="cards card4">
-                        <img src="./assets/playlists/4.png" alt="" />
-                        <span>xxx</span>
+                        <img src="./src/assets/playlists/4.png" alt="" />
+                        <span>Seus mixes mais ouvidos</span>
                     </div>
                 </a>
 
                 <!-- card5 -->
                 <a href="" class="cards">
                     <div class="cards card5">
-                        <img src="./assets/playlists/5.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/5.png" alt="" />
+                        <span>Seus programas</span>
                     </div>
                 </a>
 
                 <!-- card6 -->
                 <a href="" class="cards">
                     <div class="cards card6">
-                        <img src="./assets/playlists/6.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/6.png" alt="" />
+                        <span>Para sua noite</span>
                     </div>
                 </a>
 
                 <!-- card7 -->
                 <a href="" class="cards">
                     <div class="cards card7">
-                        <img src="./assets/playlists/7.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/7.png" alt="" />
+                        <span>Estações recomendadas</span>
                     </div>
                 </a>
 
                 <!-- card8 -->
                 <a href="" class="cards">
                     <div class="cards card8">
-                        <img src="./assets/playlists/8.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/8.png" alt="" />
+                        <span>Novos episódios</span>
                     </div>
                 </a>
 
                 <!-- card9 -->
                 <a href="" class="cards">
                     <div class="cards card9">
-                        <img src="./assets/playlists/9.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/9.png" alt="" />
+                        <span>Mais do que você curte</span>
                     </div>
                 </a>
 
                 <!-- card10 -->
                 <a href="" class="cards">
                     <div class="cards card10">
-                        <img src="./assets/playlists/10.png" alt="" />
-                        <span>xxxx</span>
+                        <img src="./src/assets/playlists/10.png" alt="" />
+                        <span>100% você</span>
                     </div>
                 </a>
             </section>
