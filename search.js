@@ -34,4 +34,5 @@ searchInput.addEventListener('input', function() {
         resultArtist.classList.remove('hidden');
         return;
     }
+    requestApi(searchTerm);
 })
